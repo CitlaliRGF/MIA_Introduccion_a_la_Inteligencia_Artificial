@@ -16,10 +16,17 @@ Para cada una indica:
 ## Formato sugerido
 
 1. **Nombre:**  Copilot
+
 **Uso:** Lo uso para tomar notas de reuniones en el trabajo y redactar correos, con esto me ahorro mucho tiempo de mi horario laboral.
+
+
 2. **Nombre:**  Code Puppy
+
 **Uso:** Lo usé para crear un dashboard tan solo con proporcionar la tabla de datos que lo alimentaría, lo que me permitió realizar un análisis rápido de la salud del inventario así como a toda el área de resurtido.
+
+
 3. **Nombre:**  Chatgpt
+
 **Uso:** Lo usé para simular una entrevista en ingles, al final me sentí más confiada en mis respuesta y me quedé con el puesto
 
 ## Criterios
