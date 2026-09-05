@@ -4,7 +4,7 @@
 
 Para este ejercicio se creó el archivo:
 
-`Agentes/project/config/mi\_cueva\_4x4.yaml`
+`Agentes/project/config/mi_cueva_4x4.yaml`
 
 La configuración utilizada fue:
 
@@ -14,16 +14,16 @@ grid:
   height: 4
 
 agent:
-  start: \[1, 1]
+  start: [1, 1]
   direction: east
   arrows: 1
 
-wumpus: \[3, 3]
+wumpus: [3, 3]
 
 pits:
-  - \[4, 1]
-  - \[4, 3]
-  - \[2, 4]
+  - [4, 1]
+  - [4, 3]
+  - [2, 4]
 
 gold: \[3, 2]
 
@@ -33,7 +33,7 @@ scoring:
   step: -1
   shoot: -10
 
-max\_steps: 200
+max_steps: 200
 ```
 
 ## 2\. Diagrama de la cueva
