@@ -1,6 +1,6 @@
 # Ejercicio 01 — Cambiar la ubicación del Wumpus y los pits
 
-## 1\. Configuración de la cueva
+## Configuración de la cueva
 
 Para este ejercicio se creó el archivo:
 
@@ -36,7 +36,7 @@ scoring:
 max_steps: 200
 ```
 
-## 2\. Diagrama de la cueva
+## Diagrama de la cueva
 
 Las coordenadas tienen origen en `[1,1]`, ubicada en la esquina inferior izquierda.
 
@@ -60,7 +60,7 @@ G Gold
 · Casilla vacía
 ```
 
-## 3. Resultados de los agentes
+## Resultados de los agentes
 
 Los agentes se ejecutaron utilizando la misma configuración de la cueva.
 
@@ -76,7 +76,7 @@ Los agentes se ejecutaron utilizando la misma configuración de la cueva.
 El Learning Agent fue entrenado durante 1500 episodios. En la ejecución greedy (`epsilon = 0`) obtuvo el oro en 12 pasos, con un score de 988.
 
 
-## 4. Reporte
+## Reporte
 
 Los agentes Model-Based, Goal-Based, Utility-Based y Learning lograron obtener el oro.
 
