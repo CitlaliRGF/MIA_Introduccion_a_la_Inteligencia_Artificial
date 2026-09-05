@@ -38,7 +38,7 @@ max_steps: 200
 
 ## 2\. Diagrama de la cueva
 
-Las coordenadas tienen origen en `\[1,1]`, ubicada en la esquina inferior izquierda.
+Las coordenadas tienen origen en `[1,1]`, ubicada en la esquina inferior izquierda.
 
 ```text
         1   2   3   4
@@ -58,25 +58,25 @@ W Wumpus
 P Pit
 G Gold
 · Casilla vacía
+```
 
-
-## 3\. Resultados de los agentes
+## 3. Resultados de los agentes
 
 Los agentes se ejecutaron utilizando la misma configuración de la cueva.
 
-|Agente|Resultado|Pasos|Score|
-|-|-|-:|-:|
-|Simple Reflex|No obtuvo el oro|200|-200|
-|Model-Based|Obtuvo el oro|17|983|
-|Goal-Based|Obtuvo el oro|17|983|
-|Utility-Based|Obtuvo el oro|34|956|
-|Learning|Obtuvo el oro|12|988|
+
+| Agente | Resultado | Pasos | Score |
+|---|---|---:|---:|
+| Simple Reflex | No obtuvo el oro | 200 | -200 |
+| Model-Based | Obtuvo el oro | 17 | 983 |
+| Goal-Based | Obtuvo el oro | 17 | 983 |
+| Utility-Based | Obtuvo el oro | 34 | 956 |
+| Learning | Obtuvo el oro | 12 | 988 |
 
 El Learning Agent fue entrenado durante 1500 episodios. En la ejecución greedy (`epsilon = 0`) obtuvo el oro en 12 pasos, con un score de 988.
 
-## 
 
-## 4\. Reporte
+## 4. Reporte
 
 Los agentes Model-Based, Goal-Based, Utility-Based y Learning lograron obtener el oro.
 
@@ -84,7 +84,7 @@ El agente Simple Reflex no logró obtenerlo. Alcanzó el límite de 200 pasos y 
 
 La diferencia principal está en la cantidad de información que cada agente utiliza para tomar decisiones. El agente Simple Reflex solamente reacciona a la percepción actual, mientras que los otros agentes utilizan memoria, objetivos, utilidad o aprendizaje para tomar decisiones más elaboradas. El agente Simple Reflex toma decisiones únicamente a partir de la percepción que recibe en el momento. No mantiene una representación del mapa ni recuerda las casillas que ya visitó.
 
-En esta configuración, el pit ubicado en `\[4,1]` provoca una brisa en `\[3,1]`. Cuando el agente llega a `\[3,1]`, detecta la brisa y aplica su regla reactiva para girar. Como no tiene memoria ni capacidad para planificar una ruta alternativa, puede comenzar a repetir movimientos y quedar atrapado en un ciclo.
+En esta configuración, el pit ubicado en `[4,1]` provoca una brisa en `[3,1]`. Cuando el agente llega a `[3,1]`, detecta la brisa y aplica su regla reactiva para girar. Como no tiene memoria ni capacidad para planificar una ruta alternativa, puede comenzar a repetir movimientos y quedar atrapado en un ciclo.
 
 Por eso este agente puede fallar aunque exista una ruta segura hacia el oro. Su comportamiento depende de las percepciones inmediatas y, en algunos mapas, podría tener suerte y encontrar el oro.
 
