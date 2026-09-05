@@ -2,10 +2,6 @@
 
 ## Configuración de la cueva
 
-Para este ejercicio se creó el archivo:
-
-`Agentes/project/config/mi_cueva_4x4.yaml`
-
 La configuración utilizada fue:
 
 ```yaml
