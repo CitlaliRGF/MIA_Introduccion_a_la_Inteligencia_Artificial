@@ -21,7 +21,7 @@ pits:
   - [4, 3]
   - [2, 4]
 
-gold: \[3, 2]
+gold: [3, 2]
 
 scoring:
   gold: 1000
