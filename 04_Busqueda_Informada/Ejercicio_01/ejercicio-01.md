@@ -47,7 +47,7 @@ Lo que dio origen al siguiente diagrama del subgrafo:
 | Algoritmo         | Path                                                            | Depth |   Cost | Expanded | Heurística  |
 | ----------------- | --------------------------------------------------------------- | ----: | -----: | -------: | ------- |
 | **Greedy Best-First**           | Timisoara → Lugoj → Mehadia → Drobeta → Craiova → Pitesti → Bucharest                  |     6 | 615 km |        6 | straight-line distance to Bucharest (AIMA table) |
-| **A* **           | Timisoara → Arad → Sibiu → Rimnicu Vilcea → Pitesti → Bucharest |     5 | 536 km |       10 | straight-line distance to Bucharest (AIMA table) |
+| **A***           | Timisoara → Arad → Sibiu → Rimnicu Vilcea → Pitesti → Bucharest |     5 | 536 km |       10 | straight-line distance to Bucharest (AIMA table) |
 
 
 
