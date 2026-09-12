@@ -9,11 +9,11 @@ Lo que dio origen al siguiente diagrama del subgrafo:
 ```text
 
 
-                         ┌── 99 km ──> Fagaras ──211 km──> Bucharest
+                         ┌── 99 km ──> Fagaras ──211 km──> Bucharest (BFS,DFS,DLS,IDS)
                          │
 Timisoara ─118─> Arad ─140─> Sibiu
                          │
-                         └── 80 km ──> Rimnicu Vilcea ─97─> Pitesti ─101─> Bucharest
+                         └── 80 km ──> Rimnicu Vilcea ─97─> Pitesti ─101─> Bucharest (UCS)
 ```
 
 
