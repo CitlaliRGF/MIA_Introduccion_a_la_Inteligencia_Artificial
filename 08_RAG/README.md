@@ -375,8 +375,8 @@ rag-app/
 ### 1. Clonar el repositorio
 
 ``` bash
-git clone <URL_DEL_REPOSITORIO>
-cd rag-app
+git clone https://github.com/CitlaliRGF/MIA_Introduccion_a_la_Inteligencia_Artificial.git
+cd MIA_Introduccion_a_la_Inteligencia_Artificial/08_RAG
 ```
 
 ### 2. Crear un entorno virtual
