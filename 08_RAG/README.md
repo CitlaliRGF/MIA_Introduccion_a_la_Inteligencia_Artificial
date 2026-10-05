@@ -343,29 +343,32 @@ distance
 ## Estructura del proyecto
 
 ``` text
-rag-app/
+08_RAG/
 │
 ├── app/
 │   ├── chunk.py
 │   ├── embed.py
+│   ├── evaluate_retrieval.py
 │   ├── main.py
 │   ├── rag.py
 │   ├── search.py
 │   └── vector_store.py
 │
 ├── data/
-│   └── documentos
+│   ├── SOP-PPA-01_Manual_Operaciones.pdf
+│   ├── SOP-PPA-02_Quimica_y_Calidad.pdf
+│   ├── SOP-PPA-03_Mantenimiento_y_Retrolavados.pdf
+│   ├── SOP-PPA-04_Troubleshooting_y_Fallas.pdf
+│   └── SOP-PPA-05_Normativa_y_Bitacoras.pdf
 │
 ├── ui/
 │   └── streamlit_app.py
 │
-├── chroma/
-│
-├── .env
 ├── .env.example
 ├── .gitignore
-├── requirements.txt
-└── README.md
+├── README.md
+├── Reporte.pdf
+└── requirements.txt
 ```
 
 ------------------------------------------------------------------------
